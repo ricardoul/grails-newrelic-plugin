@@ -1,2 +1,42 @@
-grails-newrelic-plugin
-======================
+Introduction
+============
+This plugin will make [New Relic](http://newrelic.com) instrumentation available to a Grails project.  New Relic provides some extensive documentation on adding their Agent to a running web application, however the Real User Monitoring (RUM) feature is not automatically enabled for GSP pages.  This project aims to bridge that gap by providing a taglib to call on the GSP Layout page.
+
+New Relic
+=========
+To be able to use this plugin, NewRelic must be installed and configured.
+Installation
+------------
+New Relic needs to be installed on the running application server in order for the plugin to work.  This is [extensively documented](https://newrelic.com/docs/java/java-agent-installation) by the New Relic team.
+
+Configuration
+-------------
+Once installed, New Relic will need to be configured to both [enable RUM](https://newrelic.com/docs/java/real-user-monitoring-in-java#enable) and [turn off auto instrumentation](https://newrelic.com/docs/java/real-user-monitoring-in-java#manual).
+
+Grails New Relic Plugin
+=======================
+Install plugin
+--------------
+TBC
+
+Usage
+-----
+Once New Relic and this plugin has been added to your web application, you are ready to add the tags to your page(s).  New Relic provides some [recommendations](https://newrelic.com/docs/java/real-user-monitoring-in-java) on when to all these tag methods.  Ideally, you would only need to add it to your layout page(s) as follows:
+
+```jsp
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <newrelic:browserTimingHeader/>
+    <!-- other tags -->
+</head>
+<body>
+    <!-- more tags -->
+    <newrelic:browserTimingFooter/>
+</body>
+</html>
+``` 
+
+However, if there are more GSP that need these tags, then just make sure they are added at the appropriate locations in the DOM.
