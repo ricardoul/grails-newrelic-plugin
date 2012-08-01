@@ -40,3 +40,11 @@ Once New Relic and this plugin has been added to your web application, you are r
 ``` 
 
 However, if there are more GSP that need these tags, then just make sure they are added at the appropriate locations in the DOM.
+
+Configs
+-------
+By default the New Relic RUM code will only be enabled for Production environments.  If you need it to be enabled for other environments, make sure that it is explicitly enabled in your configs
+
+```
+newrelic.enabled = true
+```
