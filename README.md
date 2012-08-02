@@ -17,7 +17,17 @@ Grails New Relic Plugin
 =======================
 Install plugin
 --------------
-TBC
+This plugin is hosted on Grails Plugins Central so it is as easy as:
+
+```bash
+grails install-plugin newrelic
+```
+
+If a specific version is needed, just include a version number after the install command
+
+```bash
+grails install-plugin newrelic 0.1
+```
 
 Usage
 -----
