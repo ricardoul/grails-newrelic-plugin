@@ -54,7 +54,7 @@ Enabling NewRelic for Development
 NewRelic should be enabled in the production environment as per the instructions [here](https://newrelic.com/docs/java/java-agent-installation), but if you need to enable this in other environments, make sure that the configs have enabled NewRelic for your environment, and add the following to your GRAILS_OPT environment
 
 ```bash
-export GRAILS_OPT="-javaagent:/path/to/newrelic.jar"
+export GRAILS_OPTS="-javaagent:/path/to/newrelic.jar"
 ```
 
 The next time you execute 'run-app' or 'run-war', NewRelic instrumentation code will be included in your generated HTML pages.
