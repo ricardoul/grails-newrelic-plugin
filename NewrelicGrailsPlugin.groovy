@@ -27,13 +27,13 @@ Newrelic plugin for Grails
     def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)
-    def organization = [ name: "Sensis", url: "http://about.sensis.com.au/" ]
+    def organization = [ name: "Sensis", url: "http://developers.sensis.com.au/" ]
 
     // Any additional developers beyond the author specified above.
 //    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
+    def issueManagement = [ url: "https://github.com/Sensis/grails-newrelic-plugin/issues" ]
 
     // Online location of the plugin's browseable source code.
     def scm = [ url: "https://github.com/Sensis/grails-newrelic-plugin/" ]
