@@ -68,3 +68,7 @@ export GRAILS_OPTS="-javaagent:/path/to/newrelic.jar"
 ```
 
 The next time you execute 'run-app' or 'run-war', NewRelic instrumentation code will be included in your generated HTML pages.
+
+Advanced topics
+===============
+For other usages of the NewRelic plugin, see the [wiki pages](https://github.com/Sensis/grails-newrelic-plugin/wiki) for more information.
