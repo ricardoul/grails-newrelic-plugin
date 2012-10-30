@@ -7,6 +7,7 @@ import grails.util.Environment
 import org.codehaus.groovy.grails.commons.GrailsApplication
 
 class NewRelicService {
+    static transactional = false
 
     GrailsApplication grailsApplication
 
