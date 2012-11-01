@@ -9,7 +9,7 @@ import org.codehaus.groovy.grails.commons.GrailsApplication
 class NewRelicService {
     static transactional = false
 
-    GrailsApplication grailsApplication
+    def grailsApplication
 
     // Record metrics
    	def recordResponseTimeMetric(String name, long millis) {
