@@ -32,14 +32,24 @@
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/utils" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/i18n" isTestSource="false" />
+<<<<<<< HEAD
+=======
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/conf" isTestSource="false" />
+>>>>>>> a992bd1f30aa70f89bb972118f059d598ab370fc
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
+=======
+    <orderEntry type="library" name="Grails 2.0.4" level="project" />
+>>>>>>> a992bd1f30aa70f89bb972118f059d598ab370fc
     <orderEntry type="module-library">
       <library name="Grails User Library">
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
+<<<<<<< HEAD
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-web/jars/grails-web-2.0.4.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-spring/jars/grails-spring-2.0.4.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-resources/jars/grails-resources-2.0.4.jar!/" />
@@ -142,6 +152,12 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/jline/jline/jars/jline-1.0.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/antlr/antlr/jars/antlr-2.7.7.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.antlr/stringtemplate/jars/stringtemplate-3.2.jar!/" />
+=======
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/junit/junit-dep/jars/junit-dep-4.9.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-core/jars/spock-core-0.6-groovy-1.8.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.6-groovy-1.8.jar!/" />
+>>>>>>> a992bd1f30aa70f89bb972118f059d598ab370fc
           <root url="jar://$USER_HOME$/.grails/ivy-cache/xml-resolver/xml-resolver/jars/xml-resolver-1.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/xerces/xercesImpl/jars/xercesImpl-2.8.1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.9.jar!/" />
@@ -181,6 +197,7 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="grails-2.0.4" level="application" />
     <orderEntry type="module" module-name="newrelic-grailsPlugins" />
     <orderEntry type="library" name="grails-2.0.4" level="application" />
   </component>
