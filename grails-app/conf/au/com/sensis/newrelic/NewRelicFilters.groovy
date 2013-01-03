@@ -5,10 +5,12 @@ class NewRelicFilters {
     def newRelicService
 
     def filters = {
-        all(controller:'*', action:'*') {
+        all(uri:"/**") {
             before = {
                 if(controllerName) {
                     newRelicService.setTransactionName(null, "/${controllerName}"+(actionName ? "/${actionName}" : "/"))
+                } else {
+                    newRelicService.setTransactionName(null, request.getServletPath())
                 }
 
                 return true
