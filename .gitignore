@@ -3,4 +3,8 @@ target/
 .classpath
 .project
 .settings/
-
+*.swp
+*.log
+grails-newrelic-*.zip*
+plugin.xml
+web-app/
