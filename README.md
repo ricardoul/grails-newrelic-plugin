@@ -23,12 +23,6 @@ This plugin is hosted on Grails Plugins Central so it is as easy as:
 grails install-plugin newrelic
 ```
 
-If a specific version is needed, just include a version number after the install command
-
-```bash
-grails install-plugin newrelic
-```
-
 Usage
 -----
 Once New Relic and this plugin has been added to your web application, you are ready to add the tags to your page(s).  New Relic provides some [recommendations](https://newrelic.com/docs/java/real-user-monitoring-in-java) on when to all these tag methods.  Ideally, you would only need to add it to your layout page(s) as follows:
