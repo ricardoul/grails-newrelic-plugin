@@ -8,3 +8,7 @@ target/
 grails-newrelic-*.zip*
 plugin.xml
 web-app/
+.idea/
+*.iml
+*.ipr
+*.iws
