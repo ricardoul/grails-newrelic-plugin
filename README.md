@@ -26,7 +26,7 @@ grails install-plugin newrelic
 If a specific version is needed, just include a version number after the install command
 
 ```bash
-grails install-plugin newrelic 0.1
+grails install-plugin newrelic
 ```
 
 Usage
