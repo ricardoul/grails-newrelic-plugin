@@ -11,10 +11,12 @@ grails.project.dependency.resolution = {
     log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     repositories {
         grailsCentral()
+        mavenCentral()
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
         compile "com.newrelic.agent.java:newrelic-api:2.18.0"
+        test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
     }
     plugins {
         compile(':rest-client-builder:1.0.2') {
@@ -24,6 +26,9 @@ grails.project.dependency.resolution = {
               ":release:2.0.4") {
             export = false
         }
-        test ":spock:0.6"
+        test(":spock:0.7") {
+            exclude "spock-grails-support"
+            export = false
+        }
     }
 }
