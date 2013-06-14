@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Sensis/grails-newrelic-plugin.png?branch=master)](https://travis-ci.org/Sensis/grails-newrelic-plugin)
+
 Introduction
 ============
 This plugin will make [New Relic](http://newrelic.com) instrumentation available to a Grails project.  New Relic provides some extensive documentation on adding their Agent to a running web application, however the Real User Monitoring (RUM) feature is not automatically enabled for GSP pages.  This project aims to bridge that gap by providing a taglib to call on the GSP Layout page.
