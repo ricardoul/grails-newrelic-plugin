@@ -12,6 +12,7 @@ grails.project.dependency.resolution = {
     repositories {
         grailsCentral()
         mavenCentral()
+        mavenRepo "http://repo.grails.org/grails/plugins-releases"
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
