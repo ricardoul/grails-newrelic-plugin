@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Sensis/grails-newrelic-plugin.png?branch=master)](https://travis-ci.org/Sensis/grails-newrelic-plugin)
+[![Build Status] https://travis-ci.org/ricardoul/grails-newrelic-plugin.svg)
 
 Introduction
 ============
